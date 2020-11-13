@@ -32,7 +32,7 @@ public class Phonebook {
         try {
             fin = new FileInputStream(file);
         } catch (FileNotFoundException e) {
-            System.out.println("Arquivo não existe. Vamos criar um!");
+            System.out.println("Arquivo não existe... Vamos criar um agora!");
         }
 
         if (fin != null) {
